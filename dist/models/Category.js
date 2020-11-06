@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+/* eslint-disable no-useless-constructor */
 class Category {
   constructor(category) {
     this.description = category.description;

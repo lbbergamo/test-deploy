@@ -17,7 +17,7 @@ const routes = _express.default.Router();
 
 routes.get('/', (request, response) => {
   return response.status(200).json({
-    message: 'First route'
+    message: 'Sem rotas'
   });
 });
 /** Localization */

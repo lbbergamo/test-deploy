@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 class Category {
   public id: number
   public description: string

@@ -20,7 +20,6 @@ async function up(knex) {
   });
 }
 
-
 async function down(knex) {
   return knex.schema.dropTable('service');
 }
